@@ -1,0 +1,16 @@
+ Python setup(venv)
+
+what is git, why is it used for
+
+Git Basis -
+git init
+git add "file name"
+git add . ----to add all changes 
+git commit -m "message"
+git status ----to check current status
+git remote add origin <url.git>
+git remote -v ----------to check that the what we add is properly add or not 
+
+
+    
+  
