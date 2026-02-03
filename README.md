@@ -49,3 +49,6 @@ mv rohan rahul
 mkdir -p ---to create multiple subfolder into a folder
 
 touch -it is utility in linux to create a file 
+
+
+
