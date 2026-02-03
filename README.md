@@ -45,3 +45,7 @@ cp ------copies the file
 
 mv ----- to rename the  file
 mv rohan rahul 
+
+mkdir -p ---to create multiple subfolder into a folder
+
+touch -it is utility in linux to create a file 
