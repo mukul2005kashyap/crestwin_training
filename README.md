@@ -44,3 +44,4 @@ pwd ------ shows current dir
 cp ------copies the file 
 
 mv ----- to rename the  file
+mv rohan rahul 
