@@ -58,3 +58,39 @@ dict={1:"mukul",2:"gyan",3:"anand"}
 print(dict)
 
 
+"""
+branching - branching in git is way or we can say that allows the devoper to create the different features 
+or work independently on the differnet branches like fix any buggs 
+or add a new features without affecting the main code
+
+here are some of the cmds releated to branch
+git branch to check the current branch
+git checkout -b branch name 
+git checkout branch name 
+git checkout -d to delete
+or git merge 
+"""
+
+"""
+control flow statement in python is used to control the order or flow in which our code executes 
+based on the conditions or loops
+"""
+
+# conditions statement -used to execute the code based on the conditions 
+
+age=int(input("enter the age :"))
+if age>=18:
+  print("vote")
+else :
+  print("dont vote ")
+
+
+"""Loop Control Statements
+
+Used to change the normal flow of loops.
+
+break -exits the loop
+
+continue -skips current iteration
+
+pass -does nothing (placeholder)"""  
