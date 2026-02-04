@@ -10,3 +10,40 @@ so you make the request to the owner like pull request
 you can say that the branching is the way by which you can interact or work collabarativly on the same code 
 
 """
+# ! standard PR workflow
+
+"""
+
+Developer creates a new branch
+
+Developer writes code changes
+
+Developer commits changes
+
+Developer pushes branch to GitHub
+
+PR is created from feature branch → main branch
+
+Team reviews code
+
+Changes requested (if needed)
+
+PR approved
+
+PR merged into main branch
+
+Branch deleted
+"""
+
+"""
+How do you resolve merge conflicts?
+
+Answer:
+
+Open conflict file
+
+Choose correct code
+
+Remove conflict markers
+
+Commit changes"""
