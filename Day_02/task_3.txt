@@ -1,0 +1,24 @@
+Shell commands are instructions given to the Linux/Unix shell to perform tasks
+like file handling, process management, system monitoring, and user management.
+
+Shell commands are used to interact with the operating system through the command-line interface
+
+| Command | Use                        |
+
+| `ls`    | List files and directories 
+
+| `pwd`   | Show current directory     |
+
+| `cd`    | Change directory           |
+
+| `mkdir` | Create directory           |
+
+| `rmdir` | Delete empty directory     |
+
+| `touch` | Create empty file          |
+
+| `cp`    | Copy files                 |
+
+| `mv`    | Move / rename files        |
+
+| `rm`    | Delete files               |
