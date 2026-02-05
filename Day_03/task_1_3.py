@@ -23,6 +23,10 @@ if talk about a functions so it is very necessary to understand about the parame
  if a value is not provided in the function call for that argument.
 
 
+---n keyword arguments, values are passed by explicitly specifying the parameter names,
+ so the order doesn’t matter.
+
+---In positional arguments, values are assigned to parameters based on their order in the function call.
 
 
 """
@@ -144,4 +148,5 @@ like there is folder that contain multiple python file (modules) so it is called
 Python ka original location kaha hai
 global packages allow karne hain ya nahi
 python version
+"""
 """
