@@ -122,7 +122,7 @@ on the object it working with  """
 
 class Anm:
     def sound(self):
-        print("animaals makes sound")
+        print("animals makes sound")
 
 class Bob(Anm):
     def sound(self):
