@@ -11,6 +11,9 @@ so just create the shell command like
 you will write the content in that command or if you want to execute any of the shell command
 you cant directly execute the comd directly you have to set the permmisions for that for whch 
 you have to use the chmod cmd and set the permmisions and then Run
-    -chmod +x sccript.sh
+    -chmod +x script.sh
  
 this command give the permmisions to execute or read and also the write 
+x 
+read
+write
