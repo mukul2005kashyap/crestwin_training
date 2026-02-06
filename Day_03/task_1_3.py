@@ -22,6 +22,7 @@ if talk about a functions so it is very necessary to understand about the parame
 ---argument ---A default argument is a parameter that assumes a default value
  if a value is not provided in the function call for that argument.
 
+
 ---n keyword arguments, values are passed by explicitly specifying the parameter names,
  so the order doesn’t matter.
 
@@ -41,6 +42,54 @@ def funt(a,b):
     print(a+b)
 funt(9,8)
 # ? this functions print the value 
+"""
+---A default argument is a parameter that assumes a default value
+ if a value is not provided in the function call for that argument.
+"""
+def myFun(x, y=50):
+    print("x: ", x)
+    print("y: ", y)
+
+myFun(10)
+
+"""---n keyword arguments, values are passed by explicitly specifying the parameter names,
+ so the order doesn’t matter."""
+
+def student(fname, lname):
+    print(fname, lname)
+
+student(fname='Geeks', lname='Practice')
+student(lname='Practice', fname='Geeks')
+
+
+"""---In positional arguments, values are assigned to parameters based on their order in the function call.
+"""
+def nameAge(name, age):
+    print("Hi, I am", name)
+    print("My age is ", age)
+
+print("Case-1:")
+nameAge("Suraj", 27)
+
+print("\nCase-2:")
+nameAge(27, "Suraj")
+
+"""
+*args in Python (Non-Keyword Arguments)
+**kwargs in Python (Keyword Arguments)
+"""
+def myFun(*args, **kwargs):
+    print("Non-Keyword Arguments (*args):")
+    for arg in args:
+        print(arg)
+
+    print("\nKeyword Arguments (**kwargs):")
+    for key, value in kwargs.items():
+        print(f"{key} == {value}")
+
+# Function call with both types of arguments
+myFun('Hey', 'Welcome', first='Geeks', mid='for', last='Geeks')
+
 
 # there a multiple of the inbuilt functions un python like 
 # --print()
@@ -100,3 +149,4 @@ Python ka original location kaha hai
 global packages allow karne hain ya nahi
 python version
 """
+
