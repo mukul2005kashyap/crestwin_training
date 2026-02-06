@@ -63,3 +63,31 @@ Good:
 attempt_count += 1
 
 """
+
+# linux process
+
+"""
+Processes in Linux
+A process is simply a program that is currently running on your system.
+Whenever you execute a command in Linux,
+the operating system creates a process to run that command.
+
+for example :-- you issued a cmd un linux like pwd -- so os creates a processs to execute that cmd that is used to show the 
+location of the current working directory in which currently user in 
+
+there is a 5 digit number that unix or linux keeps an account of the processes means that 5 digit number is the id 
+of the process and each process have the unique id of unique number 
+
+there is not any possibility in any case that two different processses having the same process id because 
+os use that process id to track all the process
+
+"""
+
+# so here is the some of the command that are related to the processes 
+"""
+ps ---- to show status of the running process in the system
+
+ps -ef -----  to show all the current running process in the system
+
+ps aux --- a: Shows processes for all users, including those not owned by the current user.
+"""
