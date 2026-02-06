@@ -1,0 +1,20 @@
+DEBUG:root:this is debug msg
+INFO:root:this is info msg
+DEBUG:root:this is debug msg
+INFO:root:this is info msg
+DEBUG:root:this is debug msg
+INFO:root:this is info msg
+DEBUG:root:hello this is debbug msg
+DEBUG:root:this is debug msg
+INFO:root:this is info msg
+DEBUG:crest_logger:hello this is debbug msg
+DEBUG:root:this is debug msg
+INFO:root:this is info msg
+DEBUG:crest_logger:hello this is debbug msg
+DEBUG:root:this is debug msg
+INFO:root:this is info msg
+DEBUG:crest_logger:hello this is debbug msg
+INFO:crest_logger:hello this is info msg
+WARNING:crest_logger:hello this is warning msg
+WARNING:crest_logger:hello this is warning msg
+ERROR:crest_logger:hello this is warning msg
