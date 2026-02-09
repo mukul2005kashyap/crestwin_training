@@ -18,3 +18,7 @@ INFO:crest_logger:hello this is info msg
 WARNING:crest_logger:hello this is warning msg
 WARNING:crest_logger:hello this is warning msg
 ERROR:crest_logger:hello this is warning msg
+WARNING:__main__:hello this is warning msg
+ERROR:__main__:hello this is warning msg
+WARNING:test.log:hello this is warning msg
+ERROR:test.log:hello this is warning msg
