@@ -47,26 +47,36 @@ trackback shows you 3
     
 
 """
-class A:
-    def __init__(self):
-        pass
+# class A:
+#     def __init__(self):
+#         pass
 
-# LOGGING
-"""
-Logging is the process of keeping a record of what a program is doing while it runs,
- which helps developers understand program behavior and easily find and fix errors
- like invalid inputs or system failures.
+# logical  error
 
-#!  Python Logging Levels
-    There are five built-in levels of the log message.            numeric value
+age = 18
+
+if age > 18:
+    print("You can vote")
+else:
+    print("You cannot vote")
+
+
+# # LOGGING
+# """
+# Logging is the process of keeping a record of what a program is doing while it runs,
+#  which helps developers understand program behavior and easily find and fix errors
+#  like invalid inputs or system failures.
+
+# #!  Python Logging Levels
+#     There are five built-in levels of the log message.            numeric value
                                                                  
-Debug: Detailed information for diagnosing problems.                  10
-Info: Confirms things are working as expected.                        20 
-Warning: Indicates unexpected issues or potential future problems.    30
-Error: A serious problem that prevents a function from running.       40
-Critical: A severe error that may stop the program from running.      50
+# Debug: Detailed information for diagnosing problems.                  10
+# Info: Confirms things are working as expected.                        20 
+# Warning: Indicates unexpected issues or potential future problems.    30
+# Error: A serious problem that prevents a function from running.       40
+# Critical: A severe error that may stop the program from running.      50
 
- """
+#  """
 
 import logging
 
