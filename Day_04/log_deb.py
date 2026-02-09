@@ -91,7 +91,7 @@ logging.basicConfig(level=logging.WARNING , filename="test.log")
 # ---INFO:root:this is info msg
 
 
-logger = logging.getLogger("crest_logger")
+logger = logging.getLogger("test.log")
 logger.setLevel(logging.WARNING)
 formatter = logging.Formatter(" %(asctime)s - %(name)s - %(levelname)s - %(message)s ")
 handler = logging.StreamHandler()         #---send message to the stream
