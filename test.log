@@ -22,3 +22,5 @@ WARNING:__main__:hello this is warning msg
 ERROR:__main__:hello this is warning msg
 WARNING:test.log:hello this is warning msg
 ERROR:test.log:hello this is warning msg
+INFO:root:calling add with args=(4, 8) , kwargs={}
+DEBUG:root:add returned 12
