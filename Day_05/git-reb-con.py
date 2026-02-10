@@ -27,3 +27,39 @@ previous commmits
 ?                                    git merge-ff-only <feature -branch>
 
 """
+
+# shell automation
+
+"""
+shell automation is the process of      using the shell script or a bash script to automate the repetative task likke
+                process management 
+                deployement 
+                regulary backup check 
+                monitoring 
+                log file cleaning 
+                server restart and server check 
+
+                
+                """
+
+# shell automation in linux primarly uses the shell scripting which involves writting the series of command in text file
+# for shell to perform automattically
+
+# ?  Benifits of automation
+#               it increases the effeciancy and improved conscitency by reduciung human error and scalability , enhanced 
+#               relabilitty of task like system monitoring and backup etc.....
+
+
+"""
+for example :
+        sudo apt update -y              --this file download the laatest packages from the current repo
+
+        sudo apt upgrade -y             -- this installs the available updates for already installed packages
+
+        sudo apt autoremove -y          --This removes unnecessary packages that were installed as dependencies
+
+        echo "System update completed."
+ 
+
+        """
+
