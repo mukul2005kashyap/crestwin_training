@@ -12,10 +12,7 @@ git rebase is cmnd that moves or replay your branch commit on the top of the lat
 this command add like merge the main branch commit in your feature branch without adding the new commit in your main branch  
         
  """
-
-
-
-
+ 
 
 # FAST FORWARD MERGE
 

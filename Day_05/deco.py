@@ -25,11 +25,19 @@ def log_fun(fun):
     return decorated
 
 
-@log_fun
-def add(a,b):
-    return a+b
+# @log_fun
+# def add(a,b):
+#     return a+b
 
-add(4,8)
+# add(4,8)
+
+
+@log_fun
+def mul(x,y):
+    return x*y
+
+mul(3,5)
+
 
 
 # what are the real life example of decorators 
