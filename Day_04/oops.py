@@ -135,3 +135,87 @@ class Cat(Anm):
 b=Bob()
 c=Cat()
 c.sound()
+
+"""
+OOP (Object-Oriented Programming) is a programming paradigm based on the concept of objects, 
+    which can contain data (attributes) and code (methods/functions).
+    OOP helps organize code, makes it more modular, reusable, and easier to maintain.
+    
+    -Dynamic Typing: Python classes and objects don't require explicit type declarations.
+
+    -Everything is an object: Even basic data types (like integers, functions) are objects with attributes and methods.
+
+    -Multiple Inheritance: Python supports inheriting from multiple classes, enabling complex class hierarchies.
+
+    -Duck Typing: Python emphasizes behavior over type, allowing polymorphism without strict type hierarchies.
+
+    -Built-in Magic Methods: Python uses special methods (like __init__, __str__, __len__) to customize object behavior,
+                             enabling operator overloading and integration with Python syntax.
+
+
+                             
+?  What is the __init__ method in Python
+        -The __init__ method in Python is a special constructor method that automatically runs when a new object of a class is created.
+          It is used to initialize the object’s attributes with default or user-provided values.
+            It is similar to constructors in other OOP languages like Java or C++.
+
+?What is method overloading in Python?
+In languages like Java or C++, method overloading allows multiple methods with the same name but different parameters.
+ Python does not support true method overloading. If you define two methods with the same name,
+   the latest one will overwrite the previous definition.
+
+
+?What is method overriding in Python?
+Method overriding allows a subclass to provide a specific implementation of a method that is already defined
+ in its superclass. This means that the subclass can "override"the behavior of the method inherited
+   from the parent class, providing a different version that is more suitable for the subclass.
+
+?What are abstract classes in Python?
+Abstract class is a class that serves as a blueprint for other classes. It defines a structure that derived
+ classes must follow but does not provide full implementation, abstract classes cannot be instantiated 
+ directly which means they are meant to be subclassed.  
+
+
+"""
+from abc import ABC, abstractmethod
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+
+"""
+?What is the Global Interpreter Lock (GIL) and its impact on Python OOP?
+The Global Interpreter Lock (GIL) is a mutex that allows only one thread to execute Python bytecode at a time,
+ even on multi-core systems.
+
+It's impact:
+
+        -For CPU-bound tasks, multithreading is limited by the GIL, so performance gains are minimal.
+        -For I/O-bound tasks (like file handling, networking, databases), threads still help because the GIL
+         is released during I/O operations.
+
+
+? Explain Python’s MRO with an example.
+Python’s Method Resolution Order (MRO) determines the order in which classes are searched 
+when calling a method in the presence of multiple inheritance.
+
+It follows the C3 linearization algorithm.
+
+Example:
+
+class A: pass
+class B(A): pass
+class C(A): pass
+class D(B, C): pass
+​
+print(D.mro())
+
+            A
+           / \ 
+          B   c
+           \ /
+            D
+
+
+[<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
+"""
