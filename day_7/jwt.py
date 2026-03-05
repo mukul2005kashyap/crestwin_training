@@ -42,7 +42,7 @@ how jwt authenctication workflow happens:
     
     client stores that tokens in like localhost or httponly
     
-    in each request the usr will send the tokens
+    in each request the usr will send the tokens to prove their identity 
     
     server verify the each tokens eveery time 
     
